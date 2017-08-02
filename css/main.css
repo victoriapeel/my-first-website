@@ -1,0 +1,224 @@
+/***** BASE STYLES*****/
+
+@font-face {
+    font-family: markella;
+    src: url('../font/markella.otf') format('opentype');
+}
+
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+#about, #work, #contact {
+	height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 100%;
+	margin: 0 auto;
+}
+.half-width {
+	width: 50%;
+	float: left;
+}
+.third-width {
+	width: 33%;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header {
+	background: url('../img/hero.png');
+	background-size: cover;
+	height: 800px;
+  padding-bottom: 30px;
+}
+header h1 {
+	font-family: 'markella';
+	font-size: 120px;
+	color: #d60e91;
+  text-align: center;
+  padding-top: 380px;
+  margin: 0;
+
+}
+
+header h2 {
+	width: 650px;
+	font-size: 30px;
+	line-height: 40px;
+	color: #cfcfcf;
+	text-align: center;
+  font-weight: 300;
+  margin: auto;
+  padding-bottom: 165px;
+}
+
+nav {
+	float: left;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #cfcfcf;
+  font-weight: 300;
+  padding-left: 55px;
+}
+
+#social {
+  padding:inherit;
+
+
+}
+#social img {
+  width: 18px;
+  height: 18px;
+  float: right;
+  padding-right: 55px;
+  padding-top: 25px;
+}
+
+/***** ABOUT*****/
+
+#about {
+  background-color: #cfcfcf;
+}
+#about .full-width {
+	padding: 50px 0;
+
+}
+
+#about h2 {
+	font-size: 36px;
+  color: #d60e91;
+  font-weight: 300;
+  margin-left: 50px;
+}
+
+#about p {
+	font-size: 18px;
+	color: #7f7f7f;
+	line-height: 42px;
+	padding-right: 50px;
+  padding-left: 50px;
+  font-family: 'Lora', serif;
+  text-align: justify;
+  font-weight: 400;
+}
+
+
+/***** WORK *****/
+
+
+#work {
+	background-color: #090d26;
+	text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+
+}
+
+#work img {
+  margin:auto;
+}
+
+#work h3 {
+	font-size: 24px;
+	width: 131px;
+	margin: 0 auto;
+  color: #cfcfcf;
+  font-weight: 300;
+}
+
+#work p {
+	font-family: 'Lora:400', serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #cfcfcf;
+	padding: 0 35px;
+}
+
+
+
+/***** CONTACT *****/
+
+#contact {
+	background-color: #cfcfcf;
+  padding-top: 110px;
+  padding-left: 65px;
+}
+
+#contact .half-width {
+  text-align: center;
+  padding-bottom: 120px;
+}
+#contact-img {
+	border: 3px solid #090d26;
+  padding: 7px;
+}
+#envelope {
+  float: left;
+    /*padding-left: 70px;*/
+  padding-right: 5px;
+
+}
+#contact h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+  font-weight: 300;
+
+}
+
+#email {
+  padding-left: 80px;
+}
+
+#email-header {
+	font-size: 36px;
+	font-weight: 300;
+  padding-bottom: 100px;
+
+}
+#socialmedia-header {
+	font-weight: bold;
+	font-size: 28px;
+	margin: 40px 0 0 0;
+}
+
+
+#contact a {
+	text-decoration: none;
+	color: #090d26;
+  font-weight: 700;
+	font-size: 28px;
+  font-family: 'Lora', serif;
+  float: left;
+}
+
+#contact ul {
+	list-style: none;
+  clear: both;
+  padding-top: 30px;
+}
+#contact ul li {
+	display: inline-block;
+}
+#contact ul img {
+	padding-right: 48px;
+
+}
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #d60e91;
+  font-size: 16px;
+  text-align: center;
+}
